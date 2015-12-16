@@ -1,11 +1,14 @@
 package de.muellersites.firstmcmod;
 
+import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
+import cpw.mods.fml.common.event.FMLConstructionEvent;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import de.muellersites.firstmcmod.handler.ConfigurationHandler;
+import de.muellersites.firstmcmod.init.ModItems;
 import de.muellersites.firstmcmod.proxy.IProxy;
 import de.muellersites.firstmcmod.reference.Reference;
 import de.muellersites.firstmcmod.utility.LogHelper;
@@ -23,7 +26,8 @@ public class FirstMCMod
     public void preInit(FMLPreInitializationEvent event)
     {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile() );
-        LogHelper.info("Pre Initialization Complete");
+        FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+        ModItems.init();
     }
 
     @Mod.EventHandler

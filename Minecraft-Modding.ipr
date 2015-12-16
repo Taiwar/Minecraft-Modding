@@ -171,6 +171,14 @@
       </item>
     </group>
   </component>
+  <component name="ProjectDictionaryState">
+    <dictionary name="Jonas">
+      <words>
+        <w>firstmcmod</w>
+        <w>muellersites</w>
+      </words>
+    </dictionary>
+  </component>
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Minecraft-Modding.iml" filepath="$PROJECT_DIR$/Minecraft-Modding.iml" />
