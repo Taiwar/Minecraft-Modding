@@ -26,6 +26,6 @@ public class ConfigurationHandler
             configuration.save();
         }
 
-        System.out.println("Config Test: " + configValue);
+        System.out.println("Configuration Test: " + configValue);
     }
 }
