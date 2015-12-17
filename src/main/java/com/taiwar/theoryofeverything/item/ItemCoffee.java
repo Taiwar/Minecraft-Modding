@@ -1,5 +1,7 @@
 package com.taiwar.theoryofeverything.item;
 
+import com.taiwar.theoryofeverything.creativetab.CreativeTabTTOE;
+
 public class ItemCoffee extends ItemTTOE
 {
     public ItemCoffee()
@@ -7,5 +9,6 @@ public class ItemCoffee extends ItemTTOE
         super();
         this.setUnlocalizedName("coffee");
         this.maxStackSize = 16;
+        this.setCreativeTab(CreativeTabTTOE.TTOE_TAB);
     }
 }
