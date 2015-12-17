@@ -1,6 +1,7 @@
 package com.taiwar.theoryofeverything;
 
 import com.taiwar.theoryofeverything.handler.ConfigurationHandler;
+import com.taiwar.theoryofeverything.init.ModBlocks;
 import com.taiwar.theoryofeverything.reference.Reference;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
@@ -25,7 +26,10 @@ public class TheoryOfEverything
     {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile() );
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+
         ModItems.init();
+
+        ModBlocks.init();
     }
 
     @Mod.EventHandler

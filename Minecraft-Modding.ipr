@@ -177,12 +177,13 @@
         <w>encluded</w>
         <w>firstmcmod</w>
         <w>muellersites</w>
+        <w>qgoop</w>
       </words>
     </dictionary>
   </component>
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Minecraft-Modding.iml" filepath="$PROJECT_DIR$/Minecraft-Modding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TheoryOfEverything.iml" filepath="$PROJECT_DIR$/TheoryOfEverything.iml" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" default="false" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
