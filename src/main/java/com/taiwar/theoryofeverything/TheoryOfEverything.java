@@ -2,7 +2,9 @@ package com.taiwar.theoryofeverything;
 
 import com.taiwar.theoryofeverything.handler.ConfigurationHandler;
 import com.taiwar.theoryofeverything.init.ModBlocks;
+import com.taiwar.theoryofeverything.init.Recipes;
 import com.taiwar.theoryofeverything.reference.Reference;
+import com.taiwar.theoryofeverything.utility.LogHelper;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
@@ -30,17 +32,21 @@ public class TheoryOfEverything
         ModItems.init();
 
         ModBlocks.init();
+
+        LogHelper.info("PreInit Complete!");
     }
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)
     {
+        Recipes.init();
 
+        LogHelper.info("Init Complete!");
     }
 
     @Mod.EventHandler
     public void postInit (FMLPostInitializationEvent event)
     {
-
+        LogHelper.info("PostInit Complete!");
     }
 }
