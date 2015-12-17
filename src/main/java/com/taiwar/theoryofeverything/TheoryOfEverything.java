@@ -1,23 +1,21 @@
-package de.muellersites.firstmcmod;
+package com.taiwar.theoryofeverything;
 
+import com.taiwar.theoryofeverything.handler.ConfigurationHandler;
+import com.taiwar.theoryofeverything.reference.Reference;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
-import cpw.mods.fml.common.event.FMLConstructionEvent;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-import de.muellersites.firstmcmod.handler.ConfigurationHandler;
-import de.muellersites.firstmcmod.init.ModItems;
-import de.muellersites.firstmcmod.proxy.IProxy;
-import de.muellersites.firstmcmod.reference.Reference;
-import de.muellersites.firstmcmod.utility.LogHelper;
+import com.taiwar.theoryofeverything.init.ModItems;
+import com.taiwar.theoryofeverything.proxy.IProxy;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.MOD_VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
-public class FirstMCMod
+public class TheoryOfEverything
 {
     @Mod.Instance(Reference.MOD_ID)
-    public static FirstMCMod instance;
+    public static TheoryOfEverything instance;
 
     @SidedProxy(clientSide = Reference.CLIENT_PROXY, serverSide = Reference.SERVER_PROXY)
     public static IProxy proxy;

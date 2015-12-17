@@ -1,8 +1,8 @@
-package de.muellersites.firstmcmod.client.gui;
+package com.taiwar.theoryofeverything.client.gui;
 
 
-import de.muellersites.firstmcmod.handler.ConfigurationHandler;
-import de.muellersites.firstmcmod.reference.Reference;
+import com.taiwar.theoryofeverything.handler.ConfigurationHandler;
+import com.taiwar.theoryofeverything.reference.Reference;
 import cpw.mods.fml.client.config.GuiConfig;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraftforge.common.config.ConfigElement;

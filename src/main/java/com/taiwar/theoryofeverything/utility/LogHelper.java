@@ -1,6 +1,6 @@
-package de.muellersites.firstmcmod.utility;
+package com.taiwar.theoryofeverything.utility;
 
-import de.muellersites.firstmcmod.reference.Reference;
+import com.taiwar.theoryofeverything.reference.Reference;
 import cpw.mods.fml.common.FMLLog;
 import org.apache.logging.log4j.Level;
 

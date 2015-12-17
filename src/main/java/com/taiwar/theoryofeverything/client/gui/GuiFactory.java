@@ -1,4 +1,4 @@
-package de.muellersites.firstmcmod.client.gui;
+package com.taiwar.theoryofeverything.client.gui;
 
 
 import cpw.mods.fml.client.IModGuiFactory;

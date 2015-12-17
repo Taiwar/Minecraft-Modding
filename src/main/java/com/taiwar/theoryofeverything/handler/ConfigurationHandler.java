@@ -1,10 +1,7 @@
-package de.muellersites.firstmcmod.handler;
+package com.taiwar.theoryofeverything.handler;
 
 import java.io.File;
 
-import cpw.mods.fml.client.event.ConfigChangedEvent;
-import cpw.mods.fml.common.eventhandler.SubscribeEvent;
-import de.muellersites.firstmcmod.reference.Reference;
 import net.minecraftforge.common.config.Configuration;
 
 public class ConfigurationHandler {

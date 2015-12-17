@@ -1,8 +1,8 @@
-package de.muellersites.firstmcmod.init;
+package com.taiwar.theoryofeverything.init;
 
+import com.taiwar.theoryofeverything.item.ItemCoffee;
+import com.taiwar.theoryofeverything.item.ItemFMM;
 import cpw.mods.fml.common.registry.GameRegistry;
-import de.muellersites.firstmcmod.item.ItemCoffee;
-import de.muellersites.firstmcmod.item.ItemFMM;
 
 public class ModItems {
     public static final ItemFMM coffee = new ItemCoffee();

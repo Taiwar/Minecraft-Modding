@@ -1,4 +1,4 @@
-package de.muellersites.firstmcmod.item;
+package com.taiwar.theoryofeverything.item;
 
 public class ItemCoffee extends ItemFMM
 {
