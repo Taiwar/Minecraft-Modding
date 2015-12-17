@@ -9,6 +9,5 @@ public class BlockQGoop extends BlockTTOE
         super();
         this.setBlockName("qgoop");
         this.setHardness(0.001F);
-        this.setCreativeTab(CreativeTabTTOE.TTOE_TAB);
     }
 }

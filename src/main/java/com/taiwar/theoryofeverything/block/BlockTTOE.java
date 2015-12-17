@@ -1,5 +1,6 @@
 package com.taiwar.theoryofeverything.block;
 
+import com.taiwar.theoryofeverything.creativetab.CreativeTabTTOE;
 import com.taiwar.theoryofeverything.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -12,6 +13,7 @@ public class BlockTTOE extends Block
     public BlockTTOE(Material material)
     {
         super(material);
+        this.setCreativeTab(CreativeTabTTOE.TTOE_TAB);
     }
 
     public BlockTTOE()
