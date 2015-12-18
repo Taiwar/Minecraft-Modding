@@ -11,7 +11,7 @@ import net.minecraft.item.ItemStack;
 
 public class ItemTTOE extends Item
 {
-   public ItemTTOE()
+    public ItemTTOE()
     {
         super();
         this.setCreativeTab(CreativeTabTTOE.TTOE_TAB);

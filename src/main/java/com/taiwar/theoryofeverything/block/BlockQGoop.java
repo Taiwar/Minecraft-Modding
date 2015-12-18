@@ -1,13 +1,15 @@
 package com.taiwar.theoryofeverything.block;
 
-import com.taiwar.theoryofeverything.creativetab.CreativeTabTTOE;
+
+import net.minecraft.block.material.Material;
 
 public class BlockQGoop extends BlockTTOE
 {
     public BlockQGoop()
     {
-        super();
+        super(Material.rock);
         this.setBlockName("qgoop");
-        this.setHardness(0.001F);
+        this.setHardness(0.01F);
+        this.setHarvestLevel("pickaxe", 2);
     }
 }
