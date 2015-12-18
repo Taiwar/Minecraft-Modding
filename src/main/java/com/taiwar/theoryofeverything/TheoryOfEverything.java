@@ -1,5 +1,6 @@
 package com.taiwar.theoryofeverything;
 
+import com.taiwar.theoryofeverything.client.handler.KeyInputEventHandler;
 import com.taiwar.theoryofeverything.handler.ConfigurationHandler;
 import com.taiwar.theoryofeverything.init.ModBlocks;
 import com.taiwar.theoryofeverything.init.Recipes;
@@ -28,6 +29,7 @@ public class TheoryOfEverything
     {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile() );
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+        proxy.registerKeybindings();
 
         ModItems.init();
 
@@ -40,6 +42,8 @@ public class TheoryOfEverything
     public void init(FMLInitializationEvent event)
     {
         Recipes.init();
+
+        FMLCommonHandler.instance().bus().register(new KeyInputEventHandler());
 
         LogHelper.info("Init Complete!");
     }

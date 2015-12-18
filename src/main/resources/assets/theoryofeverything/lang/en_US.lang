@@ -1,3 +1,13 @@
+# Keys
+keys.theoryofeverything.category=Theory Of Everything
+keys.theoryofeverything.charge=Charge
+keys.theoryofeverything.release=Release
+
+# Items
 item.theoryofeverything:coffee.name=Cold Coffee
+
+# Blocks
 tile.theoryofeverything:qgoop.name=Quantum Goop
+
+# Creative Tabs
 itemGroup.theoryofeverything=Theory of Everything
