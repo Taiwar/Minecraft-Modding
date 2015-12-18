@@ -1,12 +1,16 @@
 package com.taiwar.theoryofeverything.block;
 
 import com.taiwar.theoryofeverything.creativetab.CreativeTabTTOE;
+import com.taiwar.theoryofeverything.init.ModItems;
 import com.taiwar.theoryofeverything.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
+import net.minecraft.item.Item;
+
+import java.util.Random;
 
 public class BlockTTOE extends Block
 {

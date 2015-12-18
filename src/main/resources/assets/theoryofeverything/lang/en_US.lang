@@ -9,6 +9,7 @@ item.theoryofeverything:qdroplets.name=Quantum Droplets
 
 # Blocks
 tile.theoryofeverything:qgoop.name=Quantum Goop
+tile.theoryofeverything:coffeemachine.name=Coffee Machine
 
 # Creative Tabs
 itemGroup.theoryofeverything=Theory of Everything

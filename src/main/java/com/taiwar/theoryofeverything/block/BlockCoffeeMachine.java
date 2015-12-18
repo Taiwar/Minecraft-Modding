@@ -5,12 +5,12 @@ import net.minecraft.item.Item;
 
 import java.util.Random;
 
-public class BlockQGoop extends BlockTTOE
+public class BlockCoffeeMachine extends BlockTTOE
 {
-    public BlockQGoop()
+    public BlockCoffeeMachine()
     {
         super();
-        this.setBlockName("qgoop");
+        this.setBlockName("coffeemachine");
         this.setHardness(1F);
         this.setHarvestLevel("pickaxe", 2);
     }
@@ -18,6 +18,6 @@ public class BlockQGoop extends BlockTTOE
     @Override
     public Item getItemDropped(int metadata, Random rand, int fortune )
     {
-        return ModItems.qdroplet;
+        return ModItems.coffee;
     }
 }
