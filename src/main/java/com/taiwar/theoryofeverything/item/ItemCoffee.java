@@ -1,10 +1,10 @@
 package com.taiwar.theoryofeverything.item;
 
-public class ItemCoffee extends ItemTTOE
+public class ItemCoffee extends ItemFoodTTOE
 {
     public ItemCoffee()
     {
-        super();
+        super(10, 2, true);
         this.setUnlocalizedName("coffee");
         this.maxStackSize = 16;
     }
