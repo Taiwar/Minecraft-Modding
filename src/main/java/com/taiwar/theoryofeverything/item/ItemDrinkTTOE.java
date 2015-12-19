@@ -1,13 +1,11 @@
 package com.taiwar.theoryofeverything.item;
 
 import com.taiwar.theoryofeverything.creativetab.CreativeTabTTOE;
-import com.taiwar.theoryofeverything.init.ModItems;
 import com.taiwar.theoryofeverything.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.init.Items;
 import net.minecraft.item.EnumAction;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -23,22 +21,6 @@ public class ItemDrinkTTOE extends Item
     }
 
     @Override
-    public ItemStack onEaten(ItemStack stack, World world, EntityPlayer player)
-    {
-        if (!player.capabilities.isCreativeMode)
-        {
-            --stack.stackSize;
-        }
-
-        if (!world.isRemote)
-        {
-            player.curePotionEffects(stack);
-        }
-
-        return stack.stackSize <= 0 ? new ItemStack(ModItems.coffeecup) : stack;
-    }
-
-    @Override
     public ItemStack onItemRightClick(ItemStack stack, World world, EntityPlayer player)
     {
         player.setItemInUse(stack, this.getMaxItemUseDuration(stack));
@@ -48,7 +30,7 @@ public class ItemDrinkTTOE extends Item
     @Override
     public int getMaxItemUseDuration(ItemStack p_77626_1_)
     {
-        return 16;
+        return 32;
     }
 
     @Override
