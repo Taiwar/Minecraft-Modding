@@ -5,6 +5,11 @@ import com.taiwar.theoryofeverything.reference.Key;
 import com.taiwar.theoryofeverything.utility.LogHelper;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import cpw.mods.fml.common.gameevent.InputEvent;
+import cpw.mods.fml.common.gameevent.TickEvent;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.potion.PotionEffect;
+import net.minecraft.world.World;
 
 public class KeyInputEventHandler
 {
@@ -24,6 +29,9 @@ public class KeyInputEventHandler
     @SubscribeEvent
     public void handleKeyInputEvent(InputEvent.KeyInputEvent event)
     {
-        LogHelper.info(getPressedKeybinding());
+        if (getPressedKeybinding()==Key.RELEASE)
+        {
+            LogHelper.info("RELEASE Key pressed!");
+        }
     }
 }

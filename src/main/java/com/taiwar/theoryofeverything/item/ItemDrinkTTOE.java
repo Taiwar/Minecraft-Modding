@@ -30,7 +30,7 @@ public class ItemDrinkTTOE extends Item
     @Override
     public int getMaxItemUseDuration(ItemStack p_77626_1_)
     {
-        return 32;
+        return 25;
     }
 
     @Override

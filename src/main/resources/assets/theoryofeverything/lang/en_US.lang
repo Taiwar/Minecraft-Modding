@@ -6,7 +6,7 @@ keys.theoryofeverything.release=Release
 # Items
 item.theoryofeverything:speculo.name=Speculo
 item.theoryofeverything:qdroplets.name=Quantum Droplets
-item.theoryofeverything:coffeedrink.name=Drinkable Cold Coffee
+item.theoryofeverything:coffeedrink.name=Cold Coffee
 item.theoryofeverything:coffeecup.name=Empty Coffee Cup
 item.theoryofeverything:coffeecupraw.name=Raw Coffee Cup
 
