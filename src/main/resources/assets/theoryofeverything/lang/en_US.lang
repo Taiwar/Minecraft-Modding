@@ -6,6 +6,8 @@ keys.theoryofeverything.release=Release
 # Items
 item.theoryofeverything:coffee.name=Cold Coffee
 item.theoryofeverything:qdroplets.name=Quantum Droplets
+item.theoryofeverything:coffeedrink.name=Drinkable Cold Coffee
+item.theoryofeverything:coffeecup.name=Empty Coffee Cup
 
 # Blocks
 tile.theoryofeverything:qgoop.name=Quantum Goop
