@@ -6,16 +6,18 @@ import cpw.mods.fml.common.registry.GameRegistry;
 
 @GameRegistry.ObjectHolder(Reference.MOD_ID)
 public class ModItems {
-    public static final ItemFoodTTOE coffee = new ItemCoffee();
+    public static final ItemFoodTTOE speculo = new ItemSpeculo();
     public static final ItemDrinkTTOE coffeedrink = new ItemCoffeeDrink();
     public static final ItemTTOE qdroplet = new ItemQuantumDroplets();
-    public static final ItemCoffeeCup coffeecup = new ItemCoffeeCup();
+    public static final ItemTTOE coffeecup = new ItemCoffeeCup();
+    public static final ItemTTOE coffeecupraw = new ItemCoffeeCupRaw();
 
     public static void init()
     {
-        GameRegistry.registerItem(coffee, "coffee");
+        GameRegistry.registerItem(speculo, "coffee");
         GameRegistry.registerItem(qdroplet, "qdroplet");
         GameRegistry.registerItem(coffeedrink, "coffeedrink");
         GameRegistry.registerItem(coffeecup, "coffeecup");
+        GameRegistry.registerItem(coffeecupraw, "coffeecupraw");
     }
 }

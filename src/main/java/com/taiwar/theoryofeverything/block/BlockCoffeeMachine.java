@@ -18,6 +18,6 @@ public class BlockCoffeeMachine extends BlockTTOE
     @Override
     public Item getItemDropped(int metadata, Random rand, int fortune )
     {
-        return ModItems.coffee;
+        return ModItems.speculo;
     }
 }

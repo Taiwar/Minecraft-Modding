@@ -10,7 +10,7 @@ public class CreativeTabTTOE
     public static final CreativeTabs TTOE_TAB = new CreativeTabs(Reference.MOD_ID.toLowerCase()) {
         @Override
         public Item getTabIconItem() {
-            return ModItems.coffee;
+            return ModItems.qdroplet;
         }
 
     };
