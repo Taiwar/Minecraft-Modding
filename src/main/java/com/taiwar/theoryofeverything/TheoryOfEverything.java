@@ -4,6 +4,7 @@ import com.taiwar.theoryofeverything.client.handler.KeyInputEventHandler;
 import com.taiwar.theoryofeverything.handler.ConfigurationHandler;
 import com.taiwar.theoryofeverything.init.ModBlocks;
 import com.taiwar.theoryofeverything.init.Recipes;
+import com.taiwar.theoryofeverything.init.TileEntities;
 import com.taiwar.theoryofeverything.reference.Reference;
 import com.taiwar.theoryofeverything.utility.LogHelper;
 import cpw.mods.fml.common.FMLCommonHandler;
@@ -42,6 +43,8 @@ public class TheoryOfEverything
     public void init(FMLInitializationEvent event)
     {
         Recipes.init();
+
+        TileEntities.init();
 
         FMLCommonHandler.instance().bus().register(new KeyInputEventHandler());
 

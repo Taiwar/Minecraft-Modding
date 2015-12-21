@@ -9,6 +9,7 @@ import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.item.Item;
+import net.minecraft.world.World;
 
 import java.util.Random;
 
@@ -23,6 +24,12 @@ public class BlockTTOE extends Block
     public BlockTTOE()
     {
         this(Material.rock);
+    }
+
+    @Override
+    public void breakBlock(World world, int x, int y, int z, Block block, int meta)
+    {
+        super.breakBlock(world, x, y, z, block, meta);
     }
 
     @Override

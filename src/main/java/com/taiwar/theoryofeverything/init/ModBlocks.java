@@ -3,6 +3,7 @@ package com.taiwar.theoryofeverything.init;
 import com.taiwar.theoryofeverything.block.BlockCoffeeMachine;
 import com.taiwar.theoryofeverything.block.BlockQGoop;
 import com.taiwar.theoryofeverything.block.BlockTTOE;
+import com.taiwar.theoryofeverything.block.BlockTileEntityTTOE;
 import com.taiwar.theoryofeverything.reference.Reference;
 import cpw.mods.fml.common.registry.GameRegistry;
 
@@ -10,7 +11,7 @@ import cpw.mods.fml.common.registry.GameRegistry;
 public class ModBlocks
 {
     public static final BlockTTOE qgoop = new BlockQGoop();
-    public static final BlockTTOE coffeemachine = new BlockCoffeeMachine();
+    public static final BlockTileEntityTTOE coffeemachine = new BlockCoffeeMachine();
 
     public static void init()
     {
